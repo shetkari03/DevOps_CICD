@@ -1,0 +1,343 @@
+ Day 1
+1. SDLC – Software Development Life Cycle
+SDLC is the step-by-step process used to develop software.
+Flow:
+Planning → Requirement → Design → Development/Coding → Testing → Deployment → Maintenance → Improvements
+Planning: Decide what needs to be developed. 
+Requirement: Understand what the customer needs. 
+Design: Decide how the system will work. 
+Development: Write the code. 
+Testing: Find and fix errors. 
+Deployment: Release the software to users. 
+Maintenance: Fix issues after release. 
+Improvements: Add new features or enhancements. 
+________________________________________
+2. Waterfall Model
+Waterfall is a sequential development model. One phase is completed before moving to the next.
+Flow:
+Requirement → Design → Development → Testing → Deployment → Maintenance
+Key points
+Sequential approach 
+Requirements are mostly fixed 
+Testing happens after development 
+Less flexible to changes 
+Suitable when requirements are clear and stable 
+Analogy: Building a house according to a fixed plan—you complete the foundation, then walls, then roof.
+________________________________________
+3. V-Model
+V-Model means Verification and Validation Model.
+Each development phase has a corresponding testing phase.
+Development	Testing
+Requirement	Acceptance Testing
+System Design	System Testing
+Detailed Design	Integration Testing
+Coding	Unit Testing
+Main idea: Testing is planned along with development.
+________________________________________
+4. Agile Model
+Agile is an iterative and flexible approach to software development.
+Flow:
+Plan → Develop → Test → Release → Feedback → Improve → Repeat
+Key points
+•	Development happens in short cycles 
+•	Requirements can change 
+•	Testing happens continuously 
+•	Customer feedback is important 
+•	More flexible than Waterfall 
+These short development cycles are called Sprints.
+Typical Sprint duration: 2 weeks.
+Analogy: Instead of cooking the entire meal and asking for feedback at the end, prepare one dish, get feedback, improve it, and continue.
+________________________________________
+5. Waterfall vs Agile
+Waterfall	Agile
+Sequential	Iterative
+Requirements mostly fixed	Requirements can change
+Testing after development	Continuous testing
+Less flexible	More flexible
+Changes are difficult	Changes are easier
+Delivery usually at the end	Frequent/early delivery
+________________________________________
+6. Scrum
+Scrum is an Agile framework used to develop and deliver working software in small increments.
+Basic Scrum idea
+Plan → Develop → Test → Review → Improve → Repeat
+The work is divided into Sprints, commonly 2 weeks long.
+________________________________________
+7. Scrum Pillars
+There are 3 pillars of Scrum:
+1.	Transparency – Everyone can see and understand the work. 
+2.	Inspection – Regularly check the progress and results. 
+3.	Adaptation – Make changes when required. 
+Easy way to remember:
+See → Check → Change
+________________________________________
+8. Scrum Values
+There are 5 Scrum values:
+•	Commitment – Complete the agreed work. 
+•	Courage – Face challenges and problems. 
+•	Respect – Respect team members. 
+•	Openness – Be honest and transparent. 
+•	Focus – Concentrate on the Sprint goal. 
+Shortcut: C-C-R-O-F
+________________________________________
+9. .NET Framework
+.NET Framework is a Microsoft platform used to develop and run applications.
+It provides:
+•	Runtime – Executes applications. 
+•	Libraries – Provides ready-made functionality. 
+•	Security – Helps provide secure execution. 
+•	Memory Management – Manages memory automatically. 
+•	Development Support – Helps build different types of applications. 
+Applications
+.NET can be used for:
+•	Windows applications 
+•	Web applications 
+•	Web services 
+•	APIs 
+•	Enterprise applications 
+Simple structure
+Your Application
+↓
+.NET Framework
+↓
+CLR + Class Libraries + Services
+↓
+Operating System
+________________________________________
+C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft.
+It is used to build:
+•	Web applications 
+•	Desktop applications 
+•	APIs 
+•	Cloud applications 
+•	Games 
+•	Mobile applications 
+Important features
+•	Simple 
+•	Object-oriented 
+•	Type-safe 
+•	Secure 
+•	Multithreaded 
+•	Scalable 
+•	Rich libraries 
+•	Cross-platform 
+________________________________________
+11. C# / .NET Timeline
+Some important milestones:
+•	2000 – C# introduced 
+•	2002 – .NET Framework 1.0 
+•	2005 – Generics introduced 
+•	2007 – LINQ 
+•	2010 – Dynamic features 
+•	2012 – async / await 
+•	2019 – Nullable reference types 
+•	Today – Modern, cross-platform C# 
+________________________________________
+12. Variables
+A variable is a named memory location used to store data.
+Example:
+int age = 30;
+string name = "Amit";
+Here:
+•	int → data type 
+•	age → variable 
+•	30 → value 
+•	string → data type 
+•	name → variable 
+•	"Amit" → value 
+________________________________________
+13. Constant
+A constant is a value that cannot be changed after it is declared.
+const double pi = 3.14;
+pi will always have the value 3.14.
+________________________________________
+14. Literal
+A literal is a value written directly in the program.
+Examples:
+int age = 30;
+string name = "Amol";
+double price = 99.50;
+Here 30, "Amol" and 99.50 are literals.
+________________________________________
+15. Identifier
+An identifier is the name used to identify a programming element such as a variable, class, or method.
+Examples:
+student3
+student_rollno
+studentName
+________________________________________
+16. Contextual Keyword
+A contextual keyword acts as a keyword only in a specific context.
+Example:
+var name = "ABC";
+Here var is used to implicitly determine the variable's type.
+________________________________________
+SDLC:
+Planning → Requirement → Design → Coding → Testing → Deployment → Maintenance
+Waterfall:
+Sequential + Fixed requirements + Less flexible
+V-Model:
+Development phase ↔ Corresponding testing phase
+Agile:
+Plan → Develop → Test → Release → Feedback → Improve
+Scrum:
+Agile framework + Sprints
+Scrum Pillars:
+Transparency + Inspection + Adaptation
+Scrum Values:
+Commitment + Courage + Respect + Openness + Focus
+.NET:
+Platform for developing and running applications
+C#:
+Modern, object-oriented, type-safe, cross-platform programming language
+Constant: Cannot change
+Literal: Direct value in code
+Identifier: Name of a programming element
+Contextual Keyword: Keyword depending on the context
+
+
+Day2
+•Value Type: Stores actual value — int, float, char, struct
+Reference Type: Stores reference to object — class, array, string
+Boxing: Value type → object
+Unboxing: object → Value type
+Type Conversion: Changing one data type to another
+Implicit: Automatic
+Explicit: Manual using (type)
+Operators: Perform operations 
+Flow Control: Controls program execution — if, switch, break
+Loops:( Repeat code )— for, while, do-while, foreach
+Method: Block of code that performs a task
+Pass by Value: Copy of value is passed
+Pass by Reference: Original variable is passed using ref
+ref: Variable must already have a value
+out: Method must assign a value
+Named Parameter: Pass value using parameter name  age: 20
+Parameter Array: params allows multiple arguments
+Array: Stores multiple values of the same type
+for: Useful when index is needed
+foreach: Used to access each element directly 
+
+Day3
+Class is a blueprint or template used to create objects. It contains data members and methods.
+Object is an instance of a class. It is created using the new keyword.
+Abstraction means hiding implementation details and showing only the necessary information. It is achieved using abstract classes and interfaces.
+Encapsulation means wrapping data and methods together and protecting data from direct access. It is commonly achieved using private fields with get and set.
+Inheritance allows a child class to use the properties and methods of a parent class. It helps in code reusability.
+Polymorphism means one name having multiple forms. For example, the same Work() method can behave differently in different classes.
+Access Specifiers
+public means accessible from anywhere.
+private means accessible only inside the same class.
+protected means accessible inside the class and its child classes.
+internal means accessible within the same project or assembly.
+Properties and Indexer
+get is used to read a property value.
+set is used to assign or change a property value.
+Indexer allows an object to be accessed like an array using [ ].
+Constructors
+Constructor is a special method that automatically runs when an object is created. It is used to initialize an object.
+Default constructor is a constructor without parameters.
+Constructor overloading means having multiple constructors in the same class with different parameters.
+Static Concepts
+Static variable belongs to the class and is shared by all objects.
+Static method belongs to the class and can be called without creating an object.
+Static constructor automatically runs once to initialize static members.
+Static class cannot be instantiated and is generally used for common utility methods.
+Important Keywords
+new is used to create an object.
+abstract is used to create abstract classes and methods.
+virtual allows a method to be overridden by a child class.
+override provides a new implementation of a parent class method.
+sealed prevents a class from being inherited or a method from being further overridden.
+readonly means a value can be initialized but cannot normally be changed afterward.
+Multilevel inheritance means inheritance through multiple levels, such as Employee → Manager → SeniorManager.
+base is used by a child class to access members or the constructor of its parent class.
+
+
+Day 4
+Inheritance → Allows a child class to acquire properties and methods of a parent class.
+Single Inheritance → One parent → one child.
+Multilevel Inheritance → Parent → child → grandchild.
+Hierarchical Inheritance → One parent → multiple child classes.
+Multiple Inheritance → One class inheriting from multiple classes; not supported with classes in C#, but possible using interfaces.
+Hybrid Inheritance → Combination of different inheritance types; can be achieved using interfaces.
+Constructor → Special method used to initialize an object.
+Constructor Overloading → Multiple constructors with different parameters.
+Constructor Chaining → One constructor calls another constructor.
+this() → Calls another constructor of the same class.
+base() → Calls a constructor of the parent class.
+Polymorphism → One name having multiple forms or behaviors.
+Compile-Time Polymorphism → Achieved through method overloading.
+Run-Time Polymorphism → Achieved through method overriding using virtual and override.
+virtual → Allows a parent method to be overridden.
+override → Provides a new implementation in the child class.
+Name Hiding → Child class hides a parent class member with the same name.
+new keyword → Used to explicitly hide the parent class member.
+Interface → A contract that defines what a class should implement.
+Multiple Interfaces → A class can implement multiple interfaces.
+Abstract Class → A base class that cannot be directly instantiated and can contain abstract and normal methods.
+Abstract Method → A method declared without implementation that the child class must implement.
+Sealed Class → A class that cannot be inherited.
+sealed keyword → Prevents further inheritance.m
+
+
+Day 5 
+
+Exception Handling – Short Summary
+Exception is an unexpected event that occurs while a program is running. Exception handling prevents abnormal program termination and allows us to handle errors properly.
+Compile-Time Error: Error detected during compilation.
+Example: int x = "welcome";
+Runtime Error: Error that occurs during program execution.
+Example: int result = 10 / 0;
+try: Contains code that may cause an exception.
+catch: Handles the exception and displays a meaningful message.
+finally: Executes whether an exception occurs or not; mainly used for cleanup.
+throw: Used to manually raise an exception.
+Basic flow:
+try → exception occurs → catch → finally → continue program
+A single try block can have multiple catch blocks. We can also create user-defined exceptions by inheriting from the Exception class.
+________________________________________
+LINQ – Short Summary
+LINQ (Language Integrated Query) is used to query and manipulate data from collections, databases, XML, etc.
+LINQ to Objects: Used with collections like arrays and lists.
+int[] marks = { 40, 20, 60, 70 };
+
+var result = marks.Where(m => m > 50);
+Output: 60, 70
+Common LINQ methods:
+Where()→Filters data
+Select()→Select required data
+OrderBy()→ Sorts in ascending order
+OrderByDescending()→ Sorts in descending order
+GroupBy()→ Groups data
+Join() → Combines data from two collections
+Lambda Expression is a short way to write a function.
+(a, b) => a + b
+Here, => is the lambda operator.
+LINQ to SQL is used to query database data using LINQ syntax.
+LINQ to XML is used to query and work with XML data.
+In simple words: LINQ helps us filter, select, sort, group, and join data easily using C# syntax.
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
